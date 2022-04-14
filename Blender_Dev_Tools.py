@@ -11,12 +11,11 @@ $ python3 Blender_Dev_Tools.py <Dev Tool Function> <Repo name>
 
 # Paths to local repositories:
 GIT_REPOS = {  # Schema: "<Command Name>": "<Path to Repo>"
-    "BMNFTs_Public": "/Users/torrinleonard/Desktop/Repositories/Blend_My_NFTs",
-    "BMNFTs_Confidential": "/Users/torrinleonard/Desktop/Repositories/Blend_My_NFTs Confidential",
+    "": "",
 }  # The keys in this dict will be used to identify which repo you want from the command line
 
 # Path to Blender addons folder:
-BLNEDER_DEV_DIR = "/Applications/Blender.app/Contents/Resources/3.1/scripts/addons"
+BLNEDER_DEV_DIR = ""
 
 # Coloured messages:
 class bcolors:
